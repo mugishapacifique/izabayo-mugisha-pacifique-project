@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>fimalo</title>
+<style>
+    body{
+margin: 0;
+padding: 0;
+background: url("fimalo pictures/background.jpg");
+background-size: cover;
+background-position: center;
+
+}
+.container{
+width: 100vw;
+height: 100vh;
+font-size: 15px;
+font-weight: bold;
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 50px 1fr 1fr 100px;
+margin:0%;
+gap: 10px;
+padding: 10px;
+box-sizing: border-box;
+color: aliceblue;
+}
+
+.container div{
+    padding: 20px;
+    border: 0px solid rgb(252, 252, 255);
+}
+.content-large{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-style:oblique;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    color: aliceblue;
+    text-align:center;
+
+}
+h4{
+color:rgb(255, 230, 0);
+text-align: center;
+-ms-flow-into: unset;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    color: aliceblue;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-underline-offset: none;
+}
+p{
+    color:tomato;
+    font-size:larger;
+}
+
+.part5{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.slide{
+width: 750px;
+height: 320px;
+    background: url("fimalo pictures/slide/1.jpg");
+    animation: slide 10s infinite;
+  
+}
+@keyframes slide{
+25%{
+    background: url("fimalo pictures/slide/4.jpg");
+}
+55%{
+    background: url("fimalo pictures/slide/3.jpg");
+}
+75%{
+    background: url("fimalo pictures/slide/2.jpg");
+}
+100%{
+    background: url("fimalo pictures/slide/1.jpg");
+}
+
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+    <div class="container">
+<div class="header">
+
+     <h3>
+    Home &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+    &nbsp; &nbsp; 
+    <a href="time.html">check time</a>
+    &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp;  
+        <a href="gallery.html">gallery</a>
+        &nbsp; &nbsp; &nbsp; 
+        <a href="our mission.html">our mission</a>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                    log in
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    &nbsp; &nbsp; &nbsp;  
+     </h3>
+</div>
+<div class="content-large" ><p class="slide"></p></div>
+<div class="content-large"><h4>find your match lover</h4> </picture></div>
+<div class="part4"><form>
+    <p>username</p>
+    <input type="text" name="" placeholder="enter username">
+    <p>password</p>
+    <input type="password" name="" placeholder="enter your password">
+    <input type="submit" name="" value="log in"><br>
+<p></p>
+open your account:<a href="sign up.html">sign up</a><br>
+</form>
+</div>
+
+<div class="part5"><h2>fimalo(find match lover) <copyright2022-2023>2022-2023</copyright2022-2023> &nbsp; &nbsp; &nbsp; &nbsp;
+      by using this site you agree to accept our users agreement which can be  <a href="terms and conditions.html">read here</a></h2></div>
+
+    </div>
+
+
+
+
+
+</body>
+</html>
